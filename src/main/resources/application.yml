@@ -1,0 +1,27 @@
+server:
+  port: 7000
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: gateway-server
+
+logging:
+  config: classpath:logback-boot.xml
+
+#日志配置
+logback:
+  logdir: "logs"
+  appname: ${spring.application.name}
+management:
+  endpoints:
+    web.exposure.include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
+
+login:
+  config:
+    passUrlList:
+      - "/login/**"
