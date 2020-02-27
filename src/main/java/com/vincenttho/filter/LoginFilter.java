@@ -1,4 +1,4 @@
-package com.vincent.filter;
+package com.vincenttho.filter;
 
 import feign.FeignException;
 import lombok.extern.slf4j.Slf4j;

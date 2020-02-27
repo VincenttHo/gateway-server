@@ -1,6 +1,6 @@
-package com.vincent.service.login;
+package com.vincenttho.service.login;
 
-import com.vincent.service.user.UserInfoDO;
+import com.vincenttho.service.user.UserInfoDO;
 import lombok.Data;
 
 /**

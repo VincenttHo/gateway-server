@@ -1,6 +1,6 @@
-package com.vincent.service.user;
+package com.vincenttho.service.user;
 
-import com.vincent.model.BaseDO;
+import com.vincenttho.model.BaseDO;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 

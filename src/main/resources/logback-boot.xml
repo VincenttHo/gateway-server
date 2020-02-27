@@ -4,7 +4,7 @@
     <!--application.yml 传递参数，不能使用logback 自带的<property>标签 -->
     <springProperty scope="context" name="logback.appname" source="spring.application.name"/>
     <springProperty scope="context" name="logback.logdir" source="logback.logdir"/>
-    <!--<conversionRule conversionWord="highlightex" converterClass="com.vincent.config.HighlightingCompositeConverterEx" />-->
+    <!--<conversionRule conversionWord="highlightex" converterClass="com.vincentthotho.config.HighlightingCompositeConverterEx" />-->
     <!--info级别日志文件输出-->
     <appender name="fileInfoLog"
               class="ch.qos.logback.core.rolling.RollingFileAppender">
@@ -93,7 +93,7 @@
          -->
     </appender>
 
-    <logger name="com.vincent" level="debug"/>
+    <logger name="com.vincenttho" level="debug"/>
 
     <!--指定最基础的日志输出级别 -->
     <root level="INFO">

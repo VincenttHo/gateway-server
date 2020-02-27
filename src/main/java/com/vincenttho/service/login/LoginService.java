@@ -1,4 +1,4 @@
-package com.vincent.service.login;
+package com.vincenttho.service.login;
 
 import com.alibaba.fastjson.JSONObject;
 import org.springframework.cloud.openfeign.FeignClient;

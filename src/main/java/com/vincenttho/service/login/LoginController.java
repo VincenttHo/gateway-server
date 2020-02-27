@@ -1,7 +1,7 @@
-package com.vincent.service.login;
+package com.vincenttho.service.login;
 
-import com.vincent.model.ResultBean;
-import com.vincent.service.user.UserInfoDO;
+import com.vincenttho.model.ResultBean;
+import com.vincenttho.service.user.UserInfoDO;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
